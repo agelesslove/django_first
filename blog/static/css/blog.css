@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Cinzel:wght@400;700&display=swap');
+
+body {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Cinzel', serif;
+    background: #120d1a;
+    color: #e2d9f3;
+}
+
+header {
+    background: #2b193d;
+    border-bottom: 2px solid #5a3d7a;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+header h1, header h1 a {
+    color: #d8b4fe;
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 3.5em;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.post {
+    background: #1c1427;
+    border: 1px solid #3d2657;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.post h2 a {
+    color: #f3e8ff;
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 2.2em;
+    text-decoration: none;
+}
+
+.post h2 a:hover {
+    color: #c084fc;
+}
+
+.date {
+    color: #9ca3af;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+.text {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #d1d5db;
+    margin-top: 15px;
+}
