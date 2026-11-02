@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-mru3=t17pja6g4&1cjo(kg-$&h_ue6!guw$a889t(7)no)vc9&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'romantolus.pythonanywhere.com']
 
 
 # Application definition
